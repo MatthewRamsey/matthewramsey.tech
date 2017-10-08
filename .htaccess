@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www\.matthewramsey\.tech$
+RewriteRule ^/?$ "http\:\/\/matthewramsey\.tech\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^74\.208\.236\.180
+RewriteRule (.*) http://www.matthewramsey.tech/$1 [R=301,L]
